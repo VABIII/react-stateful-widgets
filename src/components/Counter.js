@@ -48,7 +48,7 @@ STEP 6:
 */
 
 import React, { useState } from 'react';
-import {royalblue} from "../../cypress/constants"; /* STEP 0 */
+ /* STEP 0 */
 
 export default function Counter() {
   const [count, setCount] = useState(0)
@@ -66,7 +66,7 @@ export default function Counter() {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: count % 2 === 0 ? "royalblue" : "red"
+    color: count % 2 === 0 ? "royalblue" : "crimson"
   };
 
   return (
